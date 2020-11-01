@@ -51,7 +51,7 @@
 //             decoration: BoxDecoration(
 //                 borderRadius: BorderRadius.circular(8),
 //                 border: Border.all(color: Colors.black)),
-//             child: TextField(
+//             child: TextFormField(
 //               autofocus: true,
 //               controller: phoneController,
 //               decoration: InputDecoration(
@@ -75,7 +75,7 @@
 //             decoration: BoxDecoration(
 //                 borderRadius: BorderRadius.circular(8),
 //                 border: Border.all(color: Colors.black)),
-//             child: TextField(
+//             child: TextFormField(
 //               autofocus: true,
 //               controller: addressController,
 //               decoration: InputDecoration(
@@ -99,7 +99,7 @@
 //             decoration: BoxDecoration(
 //                 borderRadius: BorderRadius.circular(8),
 //                 border: Border.all(color: Colors.black)),
-//             child: TextField(
+//             child: TextFormField(
 //               autofocus: true,
 //               controller: houseNumController,
 //               decoration: InputDecoration(
@@ -263,7 +263,8 @@ class _AddressPageState extends State<AddressPage> {
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(color: Colors.black)),
-            child: TextField(
+            child: TextFormField(
+              // autovalid
               controller: phoneController,
               decoration: InputDecoration(
                   border: InputBorder.none,
@@ -286,7 +287,7 @@ class _AddressPageState extends State<AddressPage> {
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(color: Colors.black)),
-            child: TextField(
+            child: TextFormField(
               controller: addressController,
               decoration: InputDecoration(
                   border: InputBorder.none,
@@ -309,7 +310,7 @@ class _AddressPageState extends State<AddressPage> {
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(color: Colors.black)),
-            child: TextField(
+            child: TextFormField(
               controller: houseNumController,
               decoration: InputDecoration(
                   border: InputBorder.none,
